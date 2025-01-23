@@ -8,7 +8,9 @@ public class SampleController {
 	
 	@GetMapping("/sample")
 	public String main() {
+
 		return "sample local update";
+
 	}
 	
 
